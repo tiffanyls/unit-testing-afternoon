@@ -47,7 +47,7 @@ describe("Cart Methods:", function(){
         cart.removeFromCart(1, cars[2].price);
         expect(cart.total).toEqual(cars[8].price);
     });
-    test('checkout() should empty the cart array and set total to 0', function{
+    test('checkout() should empty the cart array and set total to 0', function(){
         cart.addToCart( cars[0]);
         cart.addToCart( cars[1]);
         cart.addToCart( cars[2]);

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tiffanyls/unit-testing-afternoon/issues"
   },
-  "homepage": "https://github.com/tiffanyls/unit-testing-afternoon#readme"
+  "homepage": "https://github.com/tiffanyls/unit-testing-afternoon#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
 }
